@@ -1,5 +1,6 @@
 package com.example.backend.moduleA.controller
 
+import com.example.backend.moduleA.com.example.backend.moduleA.dto.response.LoginResponse
 import com.example.backend.moduleA.dto.request.RegisterRequest
 import com.example.backend.moduleA.dto.response.RegisterResponse
 import com.example.backend.moduleA.service.MyService
@@ -27,4 +28,11 @@ class MyController(
     fun getTest() : String {
         return "test"
     }
+
+//    @PostMapping("/v1/login")
+//    fun login(
+//            @RequestBody login: RegisterRequest
+//    ): ResponseEntity<LoginResponse> {
+//
+//    }
 }
